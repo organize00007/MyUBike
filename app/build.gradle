@@ -48,6 +48,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
+    implementation "com.squareup.retrofit2:converter-scalars:2.9.0"
     // Retrofit with Moshi Converter
     implementation 'com.squareup.retrofit2:converter-moshi:2.9.0'
     // Moshi
@@ -57,4 +58,6 @@ dependencies {
     // google map
     implementation 'com.google.android.gms:play-services-maps:18.1.0'
     implementation 'com.google.android.gms:play-services-location:20.0.0'
+    // google map utility
+    implementation 'com.google.maps.android:android-maps-utils:2.3.0'
 }

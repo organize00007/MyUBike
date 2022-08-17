@@ -2,6 +2,7 @@ package com.example.myubike.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -34,6 +35,19 @@ class UBikeListAdapter(private val uBikeListFragment: UBikeFragment) : ListAdapt
         holder.binding.item = getItem(position)
         holder.itemView.setOnClickListener {
             uBikeListFragment.moveCameraToSelectedLocation(position)
+        }
+        holder.binding.btnNavigation.setOnClickListener {
+            AlertDialog.Builder(uBikeListFragment.requireContext())
+                .setTitle("確認")
+                .setMessage("請選擇移動方式")
+                .setNegativeButton("取消", null)
+                .setPositiveButton("步行") { _, _ ->
+                    uBikeListFragment.showPath(position, "walking")
+                }
+                .setNeutralButton("開車") { _, _ ->
+                    uBikeListFragment.showPath(position, "driving")
+                }
+                .show()
         }
     }
 }
