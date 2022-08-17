@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="ubike_list_background_color">#80DCDCDC</color>
+    <color name="ubike_circle_background_green_color">#009E00</color>
 </resources>

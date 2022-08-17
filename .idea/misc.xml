@@ -3,13 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/drawable/bg_marker_custom.xml" value="0.107" />
+        <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/drawable/ic_locate_2.xml" value="0.136" />
         <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/drawable/ic_map.xml" value="0.1155" />
+        <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/drawable/ic_navigation.xml" value="0.136" />
+        <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/drawable/ic_search.xml" value="0.136" />
+        <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/drawable/shape_check_box.xml" value="0.107" />
+        <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/drawable/shape_edit_text.xml" value="0.2145" />
         <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
         <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/layout/fragment_list.xml" value="0.36614583333333334" />
         <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/layout/fragment_u_bike.xml" value="0.3" />
         <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/layout/fragment_u_bike_list.xml" value="0.16962025316455695" />
         <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/layout/fragment_u_bike_map.xml" value="0.3416666666666667" />
+        <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/layout/info_window_custom.xml" value="0.3" />
         <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/layout/list_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/layout/marker_custom.xml" value="0.3" />
         <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/layout/u_bike_list_header_item.xml" value="0.3594871794871795" />
         <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/layout/u_bike_list_item.xml" value="0.33" />
         <entry key="..\:/AndroidProject/MyUBike/app/src/main/res/menu/u_bike_list_menu.xml" value="0.34629629629629627" />

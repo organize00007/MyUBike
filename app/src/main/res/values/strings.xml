@@ -5,4 +5,5 @@
     <string name="u_bike_sbi_string"> %d 可借</string>
 
     <string name="string_action_go_to_map">地圖</string>
+    <string name="string_distance">直線距離%d公尺</string>
 </resources>
