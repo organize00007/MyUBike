@@ -19,6 +19,8 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
+import com.example.myubike.BuildConfig
+import com.example.myubike.BuildConfig.MAPS_PATH_API_KEY
 import com.example.myubike.R
 import com.example.myubike.adapter.MyInfoWindowAdapter
 import com.example.myubike.adapter.UBikeListAdapter
@@ -223,14 +225,14 @@ class UBikeFragment : Fragment() {
 
     fun showPath(position: Int, mode: String) {
         moveCameraToSelectedLocation(position)
-        val appId = "AIzaSyBK0QfQOMqRsPWkRbXnZ1EWidGbwaiwihE"
         if (position >= 0 && position < markerList.size) {
             markerList[position]?.let { marker ->
                 lastLocation?.let {
                     lifecycleScope.launch {
                         val start = "${it.latitude},${it.longitude}"
                         val end = "${marker.position.latitude},${marker.position.longitude}"
-                        val data = PathApi.retrofitService.getData(start, end, mode, appId)
+
+                        val data = PathApi.retrofitService.getData(start, end, mode, MAPS_PATH_API_KEY)
                         Log.e("UBikeFragment", data.toString())
 
                         val polylineOptions = PolylineOptions().color(Color.RED)
